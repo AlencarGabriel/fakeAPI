@@ -1,5 +1,4 @@
 {
-    "hasNext": false,
     "items": [
         {
             "id": 5,
@@ -48,16 +47,6 @@
             "idexternal": null,
             "status": "0",
             "deleted": false
-        }
-    ],
-    "total": "1",
-    "perPage": 100,
-    "page": 1,
-    "lastPage": 1,
-    "_messages": [
-        {
-            "code": "200",
-            "type": "information"
         }
     ]
 }
