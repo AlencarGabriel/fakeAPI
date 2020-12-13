@@ -29,16 +29,16 @@
                     "deleted": false
                 },
                 {
-                    "id": 5,
-                    "uuid": "28697c21-6b91-457e-8843-547c145605ad",
+                    "id": 6,
+                    "uuid": "43ad0a36-3d77-11eb-9d51-0242ac130002",
                     "origin": "I",
                     "requestdate": "11/12/2020 12:03:43",
                     "requestmethod": "POST",
                     "requestdata": {
                         "master": {
-                            "nome": "Vendedor 1",
+                            "nome": "Vendedor 2",
                             "ativo": true,
-                            "email": "vendedor1@vend.com.br",
+                            "email": "vendedor2@vend.com.br",
                             "idadmusers": null,
                             "updated_by": "admin"
                         },
@@ -47,13 +47,13 @@
                     "responsedate": null,
                     "responsedata": null,
                     "entity": "regvendedores",
-                    "idinternal": 1,
+                    "idinternal": 2,
                     "idexternal": null,
                     "status": "0",
                     "deleted": false
                 }
             ],
-            "total": "1",
+            "total": "2",
             "perPage": 100,
             "page": 1,
             "lastPage": 1,
