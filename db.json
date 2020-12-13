@@ -1,5 +1,6 @@
 {
-"items": [
+    "hasNext": false,
+    "items": [
         {
             "id": 5,
             "uuid": "28697c21-6b91-457e-8843-547c145605ad",
@@ -24,5 +25,15 @@
             "status": "0",
             "deleted": false
         }
+    ],
+    "total": "1",
+    "perPage": 100,
+    "page": 1,
+    "lastPage": 1,
+    "_messages": [
+        {
+            "code": "200",
+            "type": "information"
+        }
     ]
-    }
+}
