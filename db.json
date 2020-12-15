@@ -64,5 +64,45 @@
                 }
             ]
         }
+    ],
+    "metadados": [
+        [
+            {
+                "tablename": "regvendedores",
+                "labelbr": "Vendedores",
+                "labelen": "Vendors",
+                "tabletype": "m",
+                "sysfields": [
+                    {
+                        "fieldname": "nome",
+                        "datatype": "varchar(255)",
+                        "labelbr": "Nome",
+                        "labelen": "Name",
+                        "required": true
+                    },
+                    {
+                        "fieldname": "ativo",
+                        "datatype": "boolean",
+                        "labelbr": "Ativo",
+                        "labelen": "Active",
+                        "required": true
+                    },
+                    {
+                        "fieldname": "email",
+                        "datatype": "varchar(255)",
+                        "labelbr": "E-mail",
+                        "labelen": "E-mail",
+                        "required": null
+                    },
+                    {
+                        "fieldname": "idadmusers",
+                        "datatype": "integer",
+                        "labelbr": "Código usuário",
+                        "labelen": "User code",
+                        "required": null
+                    }
+                ]
+            }
+        ]
     ]
 }
