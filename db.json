@@ -69,514 +69,367 @@
 		{
 			"tablename": "systables",
 			"labelbr": "Tabelas do sistema",
-			"labelen": "System tables",
 			"tabletype": "m",
 			"sysfields": [
 				{
 					"fieldname": "idsysschemas",
 					"datatype": "integer",
 					"labelbr": "Schema",
-					"labelen": "Schema",
-					"required": true
 				},
 				{
 					"fieldname": "tablename",
 					"datatype": "varchar(255)",
 					"labelbr": "Nome da tabela",
-					"labelen": "Table name",
-					"required": true
 				},
 				{
 					"fieldname": "labelbr",
 					"datatype": "varchar(255)",
 					"labelbr": "Título em Português",
-					"labelen": "Title in Portuguese",
-					"required": true
 				},
 				{
-					"fieldname": "labelen",
 					"datatype": "varchar(255)",
 					"labelbr": "Título em inglês",
-					"labelen": "Title in english",
-					"required": true
 				},
 				{
 					"fieldname": "tabletype",
 					"datatype": "char(1)",
 					"labelbr": "Tipo",
-					"labelen": "type",
-					"required": true
 				},
 				{
-					"fieldname": "required",
 					"datatype": "boolean",
 					"labelbr": "Obrigatório",
-					"labelen": "Required",
-					"required": true
 				},
 				{
 					"fieldname": "order",
 					"datatype": "integer",
 					"labelbr": "Ordem",
-					"labelen": "Order",
-					"required": null
 				},
 				{
 					"fieldname": "idsystables",
 					"datatype": "integer",
 					"labelbr": "Tabela pai",
-					"labelen": "Parent table",
-					"required": false
 				}
 			]
 		},
 		{
 			"tablename": "sysfields",
 			"labelbr": "Campos das tabelas do sistema",
-			"labelen": "System table fields",
 			"tabletype": "d",
 			"sysfields": [
 				{
 					"fieldname": "fieldname",
 					"datatype": "varchar(255)",
 					"labelbr": "Nome do campo",
-					"labelen": "Field Name",
-					"required": true
 				},
 				{
 					"fieldname": "labelbr",
 					"datatype": "varchar(255)",
 					"labelbr": "Título em Português",
-					"labelen": "Title in Portuguese",
-					"required": true
 				},
 				{
-					"fieldname": "labelen",
 					"datatype": "varchar(255)",
 					"labelbr": "Título em inglês",
-					"labelen": "Title in english",
-					"required": true
 				},
 				{
 					"fieldname": "component",
 					"datatype": "varchar(255)",
 					"labelbr": "Componente",
-					"labelen": "Component",
-					"required": true
 				},
 				{
 					"fieldname": "datatype",
 					"datatype": "varchar(255)",
 					"labelbr": "Tipo do dado",
-					"labelen": "Data type",
-					"required": true
 				},
 				{
 					"fieldname": "grid",
 					"datatype": "integer",
 					"labelbr": "Grade",
-					"labelen": "Grid",
-					"required": false
 				},
 				{
 					"fieldname": "sm",
 					"datatype": "integer",
 					"labelbr": "sm",
-					"labelen": "sm",
-					"required": null
 				},
 				{
 					"fieldname": "md",
 					"datatype": "integer",
 					"labelbr": "md",
-					"labelen": "md",
-					"required": null
 				},
 				{
 					"fieldname": "lg",
 					"datatype": "integer",
 					"labelbr": "lg",
-					"labelen": "lg",
-					"required": null
 				},
 				{
 					"fieldname": "xl",
 					"datatype": "integer",
 					"labelbr": "xl",
-					"labelen": "xl",
-					"required": null
 				},
 				{
 					"fieldname": "order",
 					"datatype": "integer",
 					"labelbr": "Ordem",
-					"labelen": "Order",
-					"required": null
 				},
 				{
 					"fieldname": "newline",
 					"datatype": "boolean",
 					"labelbr": "Nova linha?",
-					"labelen": "New line",
-					"required": null
 				},
 				{
-					"fieldname": "required",
 					"datatype": "boolean",
 					"labelbr": "Obrigatório",
-					"labelen": "Required",
-					"required": null
 				},
 				{
 					"fieldname": "isdisabled",
 					"datatype": "boolean",
 					"labelbr": "Desabilitado",
-					"labelen": "Disabled",
-					"required": null
 				},
 				{
 					"fieldname": "readonly",
 					"datatype": "boolean",
 					"labelbr": "Somente Leitura",
-					"labelen": "Readonly",
-					"required": null
 				},
 				{
 					"fieldname": "maskmodel",
 					"datatype": "boolean",
 					"labelbr": "Salvar máscara?",
-					"labelen": "Save mask?",
-					"required": null
 				},
 				{
 					"fieldname": "pattern",
 					"datatype": "varchar(255)",
 					"labelbr": "Pattern",
-					"labelen": "Pattern",
-					"required": null
 				},
 				{
 					"fieldname": "patternerrorbr",
 					"datatype": "varchar(255)",
 					"labelbr": "Mensagem Pattern Br",
-					"labelen": "Message Pattern Br",
-					"required": null
 				},
 				{
 					"fieldname": "patternerroren",
 					"datatype": "varchar(255)",
 					"labelbr": "Mensagem Pattern En",
-					"labelen": "Menssage Pattern En",
-					"required": null
 				},
 				{
 					"fieldname": "mask",
 					"datatype": "varchar(255)",
 					"labelbr": "Máscara",
-					"labelen": "Mask",
-					"required": null
 				},
 				{
 					"fieldname": "minlength",
 					"datatype": "integer",
 					"labelbr": "Tamanho mínimo",
-					"labelen": "Minimum length",
-					"required": null
 				},
 				{
 					"fieldname": "maxlength",
 					"datatype": "integer",
 					"labelbr": "Tamanho máximo",
-					"labelen": "Maximum length",
-					"required": null
 				},
 				{
 					"fieldname": "minvalue",
 					"datatype": "integer",
 					"labelbr": "Valor mínimo",
-					"labelen": "Minimum value",
-					"required": null
 				},
 				{
 					"fieldname": "maxvalue",
 					"datatype": "integer",
 					"labelbr": "Valor máximo",
-					"labelen": "Maximum value",
-					"required": null
 				},
 				{
 					"fieldname": "mindate",
 					"datatype": "varchar(255)",
 					"labelbr": "Data mínima",
-					"labelen": "Minimum date",
-					"required": null
 				},
 				{
 					"fieldname": "maxdate",
 					"datatype": "varchar(255)",
 					"labelbr": "Data máxima",
-					"labelen": "Maximum date",
-					"required": null
 				},
 				{
 					"fieldname": "uppercase",
 					"datatype": "boolean",
 					"labelbr": "Caixa Alta?",
-					"labelen": "Uppercase?",
-					"required": null
 				},
 				{
 					"fieldname": "clean",
 					"datatype": "boolean",
 					"labelbr": "Botão Limpar?",
-					"labelen": "Clean Button?",
-					"required": null
 				},
 				{
 					"fieldname": "autofocus",
 					"datatype": "boolean",
 					"labelbr": "Auto Focus?",
-					"labelen": "Auto Focus?",
-					"required": null
 				},
 				{
 					"fieldname": "visiblelist",
 					"datatype": "boolean",
 					"labelbr": "Visível Lista?",
-					"labelen": "List visible?",
-					"required": null
 				},
 				{
 					"fieldname": "visibleform",
 					"datatype": "boolean",
 					"labelbr": "Visível formulário?",
-					"labelen": "Form visible?",
-					"required": null
 				},
 				{
 					"fieldname": "placeholderbr",
 					"datatype": "varchar(255)",
 					"labelbr": "Placeholder Br",
-					"labelen": "Placeholder Br",
-					"required": null
 				},
 				{
 					"fieldname": "placeholderen",
 					"datatype": "varchar(255)",
 					"labelbr": "Placeholder En",
-					"labelen": "Placeholder En",
-					"required": null
 				},
 				{
 					"fieldname": "icon",
 					"datatype": "varchar(255)",
 					"labelbr": "Ýcone",
-					"labelen": "Icon",
-					"required": null
 				},
 				{
 					"fieldname": "initialvalue",
 					"datatype": "varchar(255)",
 					"labelbr": "Valor inicial",
-					"labelen": "Initial value",
-					"required": null
 				},
 				{
 					"fieldname": "radiocolumns",
 					"datatype": "integer",
 					"labelbr": "Colunas do radio",
-					"labelen": "Radio Columns",
-					"required": null
 				},
 				{
 					"fieldname": "decimal",
 					"datatype": "integer",
 					"labelbr": "Qtde. de dígitos decimais",
-					"labelen": "Number of decimal digits",
-					"required": null
 				},
 				{
 					"fieldname": "thousand",
 					"datatype": "integer",
 					"labelbr": "Qtde. máxima de dígitos",
-					"labelen": "Maximum number of digits",
-					"required": null
 				},
 				{
 					"fieldname": "rows",
 					"datatype": "integer",
 					"labelbr": "Quantidade de linhas",
-					"labelen": "Number of lines",
-					"required": null
 				},
 				{
 					"fieldname": "step",
 					"datatype": "varchar(255)",
 					"labelbr": "Number step",
-					"labelen": "Number step",
-					"required": null
 				},
 				{
 					"fieldname": "dividerbr",
 					"datatype": "text",
 					"labelbr": "Divisor em português",
-					"labelen": "Divider in portuguese",
-					"required": null
 				},
 				{
 					"fieldname": "divideren",
 					"datatype": "text",
 					"labelbr": "Divisor em inglês",
-					"labelen": "Divider in english",
-					"required": null
 				},
 				{
 					"fieldname": "helpbr",
 					"datatype": "text",
 					"labelbr": "Ajuda em Português",
-					"labelen": "Help in Portuguese",
-					"required": null
 				},
 				{
 					"fieldname": "helpen",
 					"datatype": "text",
 					"labelbr": "Ajuda em Inglês",
-					"labelen": "Help in English",
-					"required": null
 				},
 				{
 					"fieldname": "blurcode",
 					"datatype": "text",
 					"labelbr": "Código ao sair",
-					"labelen": "Blur code",
-					"required": null
 				},
 				{
 					"fieldname": "changecode",
 					"datatype": "text",
 					"labelbr": "Código ao modificar",
-					"labelen": "Change code",
-					"required": null
 				},
 				{
 					"fieldname": "changemodelcode",
 					"datatype": "text",
 					"labelbr": "Código ao modificar o model",
-					"labelen": "Change model code",
-					"required": null
 				},
 				{
 					"fieldname": "entercode",
 					"datatype": "text",
 					"labelbr": "Código ao entrar",
-					"labelen": "Enter code",
-					"required": null
 				},
 				{
 					"fieldname": "options",
 					"datatype": "json",
 					"labelbr": "Opções",
-					"labelen": "Options",
-					"required": null
 				},
 				{
 					"fieldname": "lookupcolumns",
 					"datatype": "json",
 					"labelbr": "Colunas do lookup",
-					"labelen": "Lookup columns",
-					"required": null
 				},
 				{
 					"fieldname": "filterservice",
 					"datatype": "varchar(255)",
 					"labelbr": "Serviço de filtro",
-					"labelen": "Filter service",
-					"required": null
 				},
 				{
 					"fieldname": "filterparams",
 					"datatype": "json",
 					"labelbr": "Parâmetros do filtro",
-					"labelen": "Filter params",
-					"required": null
 				},
 				{
 					"fieldname": "fieldlabelbr",
 					"datatype": "varchar(255)",
 					"labelbr": "Descrição em Português",
-					"labelen": "Description in portugues",
-					"required": null
 				},
 				{
 					"fieldname": "fieldlabelen",
 					"datatype": "varchar(255)",
 					"labelbr": "Descrição em inglês",
-					"labelen": "Description in english",
-					"required": null
 				},
 				{
 					"fieldname": "fieldvalue",
 					"datatype": "varchar(255)",
 					"labelbr": "Coluna de valor",
-					"labelen": "Value column",
-					"required": null
 				},
 				{
 					"fieldname": "fieldmap",
 					"datatype": "json",
 					"labelbr": "Mapeamento Lookup",
-					"labelen": "Lookup Map",
-					"required": null
 				},
 				{
 					"fieldname": "subtitleview",
 					"datatype": "char(1)",
 					"labelbr": "Visualização de legenda",
-					"labelen": "Subtitle view",
-					"required": null
 				},
 				{
 					"fieldname": "subtitleconfig",
 					"datatype": "json",
 					"labelbr": "Configuração da legenda",
-					"labelen": "Subtitle config",
-					"required": null
 				},
 				{
 					"fieldname": "fkctable",
 					"datatype": "varchar(255)",
 					"labelbr": "Tabela estrangeira",
-					"labelen": "Foreign Table",
-					"required": null
 				},
 				{
 					"fieldname": "fkcreferences",
 					"datatype": "varchar(255)",
 					"labelbr": "Campo de referência",
-					"labelen": "Reference field",
-					"required": null
 				}
 			]
 		},
 		{
 			"tablename": "sysindexes",
 			"labelbr": "Ýndices das tabelas do sistema",
-			"labelen": "System table indexes",
 			"tabletype": "d",
 			"sysfields": [
 				{
 					"fieldname": "indexname",
 					"datatype": "varchar(255)",
 					"labelbr": "Nome do índice",
-					"labelen": "Index name",
-					"required": true
 				},
 				{
 					"fieldname": "fields",
 					"datatype": "varchar(255)",
 					"labelbr": "Campos",
-					"labelen": "Fields",
-					"required": null
 				}
 			]
 		}
